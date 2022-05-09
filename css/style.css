@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.menu {
+    flex-grow: 3;
+}
+
+.login {
+    flex-grow: 1;
+    text-align: right;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+}
