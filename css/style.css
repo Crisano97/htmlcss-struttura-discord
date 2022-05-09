@@ -159,5 +159,7 @@ button {
     background-color: pink;
     padding: 5px;
     border: pink;
+    cursor: pointer;
 }
+
 
